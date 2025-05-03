@@ -1,0 +1,50 @@
+{
+    "platos": [
+      {
+        "nombre": "Lomo Saltado",
+        "descripcion": "Carne salteada con papas, cebolla, tomate y arroz blanco.",
+        "precio": "$22.000"
+      },
+      {
+        "nombre": "Pasta Alfredo",
+        "descripcion": "Fettuccine fresca con salsa cremosa de queso parmesano y ajo.",
+        "precio": "$18.000"
+      }
+    ],
+    "sandwich": [
+      {
+        "nombre": "Club Sándwich",
+        "descripcion": "Tres capas de pan tostado con pollo, tocino, lechuga y mayonesa casera.",
+        "precio": "$12.000"
+      },
+      {
+        "nombre": "Hamburguesa BBQ",
+        "descripcion": "Hamburguesa de res con queso cheddar, cebolla caramelizada y salsa barbacoa.",
+        "precio": "$13.500"
+      }
+    ],
+    "acompanantes": [
+      {
+        "nombre": "Papas Fritas",
+        "descripcion": "Crujientes papas fritas doradas al estilo tradicional.",
+        "precio": "$6.000"
+      },
+      {
+        "nombre": "Vegetales Salteados",
+        "descripcion": "Brocoli, zanahoria y champiñones salteados con aceite de oliva.",
+        "precio": "$5.500"
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "Refresco Natural",
+        "descripcion": "Jugo natural de naranja o limón recién exprimido.",
+        "precio": "$5.000"
+      },
+      {
+        "nombre": "Agua Mineral",
+        "descripcion": "Botella de agua mineral sin gas.",
+        "precio": "$3.500"
+      }
+    ]
+  }

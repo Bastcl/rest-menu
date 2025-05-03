@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Menú - Restaurante</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=8694&format=png&color=000000" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <img src="./assets/logo.svg" alt="Logo del Restaurante">
+    </div>
+    <!-- NAVEGACIÓN HORIZONTAL SLIDER -->
+    <div class="nav-sections" id="navSections">
+        <a href="#platos"><img src="https://img.icons8.com/?size=100&id=qKfXNyTfqxF6&format=png&color=E30613" alt="Platos"> Platos</a>
+        <a href="#sandwich"><img src="https://img.icons8.com/?size=100&id=LXVcqnEpQqhU&format=png&color=E30613" alt="Sandwich"> Sandwich</a>
+        <a href="#acompanantes"><img src="https://img.icons8.com/?size=100&id=qqgE1hzCy57d&format=png&color=E30613" alt="Acompañantes"> Acompañantes</a>
+        <a href="#bebidas"><img src="https://img.icons8.com/?size=100&id=wuLICg7p98gU&format=png&color=E30613" alt="Bebidas"> Bebidas</a>
+    </div>
+
+    <!-- CONTENEDOR CENTRADO -->
+    <main class="main-content">
+
+        <!-- SECCIONES DINÁMICAS -->
+        <section id="platos" class="menu-section centered">
+            <h2>Platos Principales</h2>
+            <div class="menu-grid" id="platos-container"></div>
+        </section>
+
+        <section id="sandwich" class="menu-section centered">
+            <h2>Sandwich</h2>
+            <div class="menu-grid" id="sandwich-container"></div>
+        </section>
+
+        <section id="acompanantes" class="menu-section centered">
+            <h2>Acompañantes</h2>
+            <div class="menu-grid" id="acompanantes-container"></div>
+        </section>
+
+        <section id="bebidas" class="menu-section centered">
+            <h2>Bebidas</h2>
+            <div class="menu-grid" id="bebidas-container"></div>
+        </section>
+
+    </main>
+
+    <!-- Botón para subir al tope -->
+    <button id="scrollToTop" class="scroll-to-top">↑</button>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="https://wa.me/573001234567" target="_blank" aria-label="WhatsApp">
+                <img src="https://img.icons8.com/?size=100&id=iHyuCoDsohLG&format=png&color=FFFFFF" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/tu_restaurante" target="_blank" aria-label="Instagram">
+                <img src="https://img.icons8.com/?size=100&id=YMLqO4uWfSn5&format=png&color=FFFFFF" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/tu_restaurante" target="_blank" aria-label="Facebook">
+                <img src="https://img.icons8.com/?size=100&id=IrqxqG9lC7DM&format=png&color=FFFFFF" alt="Facebook">
+            </a>
+        </div>
+        <p>&copy; all rights reserved by <span><a target="_blank" href="https://www.instagram.com/bastdiseno.cl">bast&trade;</a></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
